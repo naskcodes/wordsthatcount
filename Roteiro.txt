@@ -1,0 +1,13 @@
+﻿//Roberta Nascimento, 25/7/2025
+/*
+    Passo a passo do wordsthatcount:
+    > Solicitar quantidade de palavras - FEITO
+    > Receber quantidade de palavras - FEITO
+    > Receber a data de quando as palavras foram registradas - FEITO
+    > Receber o usuário que cadastrou a quantidade de palavras
+    > Registrar dados recebidos em um banco de dados
+    > Conectar o front e o back para que o cadastro possa ser feito em uma página bonitinha
+    > Preparar a página bonitinha
+    > Disponibilizar página bonitinha para coleguinhas usarem
+    >>Criar autenticação para preenchimento automático do usuário
+*/
