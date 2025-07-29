@@ -1,1 +1,16 @@
-<p>novo-registro works!</p>
+<div class="container-registro_palavras">
+    <form class="container-registro_palavras-form">
+        <h5 class="container-registro_palavras-form-title">Registro de Palavras:</h5>
+        <div class="container-registro_palavras-form-input container-registro_palavras-form-input_usuario">
+            <label class="container-registro_palavras-form-label container-registro_palavras-form-label_usuario">Usuário:</label>
+            <input type="text" pInputText class="container-registro_palavras-form-input container-registro_palavras-form-input_usuario">
+        </div>
+        <div class="container-registro_palavras-form-input container-registro_palavras-form-input_palavras">
+            <label class="container-registro_palavras-form-label container-registro_palavras-form-label_palavras">Palavras:</label>
+            <input type="text" pInputText class="container-registro_palavras-form-input container-registro_palavras-form-input_palavras">
+        </div>
+        <div class="container-registro_palavras-form-input container-registro_palavras-form-input_registra_botao">
+            <p-button class="container-registro_palavras-form-button container-registro_palavras-form-label_botao" label="Enviar" severity="contrast" (click)="adicionaPalavras()"></p-button>
+        </div>
+    </form>
+</div>

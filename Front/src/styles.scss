@@ -1,1 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
+//Roberta Nascimento, 29/7/2025 > Estilo principal
+:root {
+    --vermelho-principal: #8F090F;
+    --amarelo-principal: #F1C89A;
+    --sombra-header: .01rem .5rem 2rem .2rem #F9627D;
+    --branco: #FFFFFF;
+}
+
+body {
+    background-color: var(--vermelho-principal);
+}
+
+#header-index {
+    color: var(--amarelo-principal);
+    padding: 2rem;
+    box-shadow: var(--sombra-header);
+    background-color: var(--vermelho-principal);
+}
+
+.header-title {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+//Roberta Nascimento, 29/7/2025 > Estilo entrada
+.container-login, .container-registro_palavras {
+    margin: 10rem 30rem 5rem 30rem;
+    padding: 2rem;
+    box-shadow: var(--sombra-header);
+    border-radius: .5rem;
+    background-color: var(--vermelho-principal);
+}
+
+.container-login-form-title, .container-registro_palavras-form-title {
+    text-align: center;
+}
+
+.container-login-form-title, .container-login-form-label, .container-registro_palavras-form-title, .container-registro_palavras-form-label {
+    color: var(--branco);
+}
+
+.container-login-form-input, .container-registro_palavras-form-input {
+    display: block;
+    padding-top: .5rem;
+    width: 100%;
+}
+
+.p-button {
+    width: 100%;
+    margin-top: .2rem;
+}
