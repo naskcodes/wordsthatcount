@@ -19,4 +19,9 @@ export class AppService {
     const url = PathUrl + `RegistraRegistro`;
     return this.http.post<any>(url, registro, httpOptions);
   }
+
+  public Registros(): Observable<Array<any>> {
+    const url = PathUrl + `Registros`;
+    return this.http.get<Array<any>>(url);
+  }
 }

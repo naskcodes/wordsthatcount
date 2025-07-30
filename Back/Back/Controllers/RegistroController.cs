@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Win32;
 using Back.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace wordsthatcount.Controllers;
 
@@ -14,6 +16,13 @@ public class RegistroController : ControllerBase
     public RegistroController(DbContextWordsThatCount wtcdbcontext)
     {
         _wtcdbcontext = wtcdbcontext;
+    }
+
+    [HttpGet]
+    public IActionResult Registros()
+    {
+        var retorno = _wtcdbcontext.Registros.AsNoTracking().OrderBy(p => p.dataRegistro).ToList();
+        return Ok(retorno);
     }
 
     [HttpPost]

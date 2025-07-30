@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "wordsthatcount.Controllers.RegistroController",
+    "Method": "Registros",
+    "RelativePath": "api/Registro",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "wordsthatcount.Controllers.RegistroController",
     "Method": "RegistraRegistro",
     "RelativePath": "api/Registro",
     "HttpMethod": "POST",
