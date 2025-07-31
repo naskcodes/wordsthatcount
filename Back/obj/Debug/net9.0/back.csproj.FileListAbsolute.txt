@@ -1,0 +1,15 @@
+C:\Users\rober\Documents\workarea\wordsthatcount\back\bin\Debug\net9.0\back.exe
+C:\Users\rober\Documents\workarea\wordsthatcount\back\bin\Debug\net9.0\back.deps.json
+C:\Users\rober\Documents\workarea\wordsthatcount\back\bin\Debug\net9.0\back.runtimeconfig.json
+C:\Users\rober\Documents\workarea\wordsthatcount\back\bin\Debug\net9.0\back.dll
+C:\Users\rober\Documents\workarea\wordsthatcount\back\bin\Debug\net9.0\back.pdb
+C:\Users\rober\Documents\workarea\wordsthatcount\back\obj\Debug\net9.0\back.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rober\Documents\workarea\wordsthatcount\back\obj\Debug\net9.0\back.AssemblyInfoInputs.cache
+C:\Users\rober\Documents\workarea\wordsthatcount\back\obj\Debug\net9.0\back.AssemblyInfo.cs
+C:\Users\rober\Documents\workarea\wordsthatcount\back\obj\Debug\net9.0\back.csproj.CoreCompileInputs.cache
+C:\Users\rober\Documents\workarea\wordsthatcount\back\obj\Debug\net9.0\back.sourcelink.json
+C:\Users\rober\Documents\workarea\wordsthatcount\back\obj\Debug\net9.0\back.dll
+C:\Users\rober\Documents\workarea\wordsthatcount\back\obj\Debug\net9.0\refint\back.dll
+C:\Users\rober\Documents\workarea\wordsthatcount\back\obj\Debug\net9.0\back.pdb
+C:\Users\rober\Documents\workarea\wordsthatcount\back\obj\Debug\net9.0\back.genruntimeconfig.cache
+C:\Users\rober\Documents\workarea\wordsthatcount\back\obj\Debug\net9.0\ref\back.dll
