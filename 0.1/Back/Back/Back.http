@@ -1,0 +1,9 @@
+@Back_HostAddress = http://localhost:5100
+
+GET {{Back_HostAddress}}/weatherforecast/
+Accept: application/json
+
+GET {{Back_HostAddress}}/api/registro/
+Accept: application/json
+
+###
