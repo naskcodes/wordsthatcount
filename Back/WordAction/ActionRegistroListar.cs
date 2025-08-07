@@ -2,12 +2,12 @@
 
 namespace WordsThatCount.Actions;
 
-internal class RegistroListar
+internal class ActionRegistroListar : WordAction
 {
-    public void ListarRegistrosUsuarios(Dictionary<string, Registro> registrosSalvos)
+    public override void Executar(Dictionary<string, Registro> registrosSalvos)
     {
-        Console.Clear();
-        Console.WriteLine("Digite o usuário cujos registros você deseja ver");
+        base.Executar(registrosSalvos);
+        Console.WriteLine("Digite o usuário cujos registros você deseja ver:");
         string usuarioDigitado = Console.ReadLine()!;
         if (registrosSalvos.ContainsKey(usuarioDigitado))
         {
